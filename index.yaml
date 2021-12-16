@@ -3,7 +3,7 @@ entries:
   datadog:
   - apiVersion: v1
     appVersion: "7"
-    created: "2021-12-15T15:17:05.8220811+01:00"
+    created: "2021-12-16T09:10:33.725674+01:00"
     dependencies:
     - condition: clusterAgent.metricsProvider.useDatadogMetrics
       name: datadog-crds
@@ -16,7 +16,7 @@ entries:
       repository: https://prometheus-community.github.io/helm-charts
       version: 2.13.2
     description: Datadog Agent
-    digest: afbab757e2875f436535c23e8eb99c0366f100a19852c0bbd12c619f4001f4ca
+    digest: 2fa7360195d777244846afc580cab3a545d11b3bde94d0888ecf0fd7f7b0b60c
     home: https://www.datadoghq.com
     icon: https://datadog-live.imgix.net/img/dd_logo_70x75.png
     keywords:
@@ -31,6 +31,6 @@ entries:
     - https://app.datadoghq.com/account/settings#agent/kubernetes
     - https://github.com/DataDog/datadog-agent
     urls:
-    - datadog-2.27.8.tgz
-    version: 2.27.8
-generated: "2021-12-15T15:17:05.7999639+01:00"
+    - datadog-2.27.9.tgz
+    version: 2.27.9
+generated: "2021-12-16T09:10:33.7186686+01:00"
