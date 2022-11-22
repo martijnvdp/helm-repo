@@ -3,18 +3,18 @@ entries:
   game2048:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-22T22:41:51.8170174+01:00"
+    created: "2022-11-22T23:28:44.7059171+01:00"
     description: A Helm chart for Kubernetes
-    digest: a65070131c3baeaf89d5bcd29ec2ed5b916601836a9ec84c3738cb599de2c284
+    digest: 41810646856858d787de2bc337b1211626686556d363aaa1c1f8940a51e96298
     name: game2048
     type: application
     urls:
-    - charts/game2048-1.0.0.tgz
-    version: 1.0.0
+    - charts/game2048-0.1.0.tgz
+    version: 0.1.0
   labtop-info:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-11-22T22:41:51.8170174+01:00"
+    created: "2022-11-22T23:28:44.7059171+01:00"
     description: A Helm chart for Kubernetes
     digest: f27b25e734500ca29baeb527a152a12e3e2628e8471c9d8a0cc16f1d136cd05f
     home: https://martijnvdp.github.io/helm-repo
@@ -23,6 +23,6 @@ entries:
     - https://martijnvdp.github.io/helm-repo
     type: application
     urls:
-    - labtop-info-0.0.1.tgz
+    - charts/labtop-info-0.0.1.tgz
     version: 0.0.1
-generated: "2022-11-22T22:41:51.814965+01:00"
+generated: "2022-11-22T23:28:44.7039527+01:00"
