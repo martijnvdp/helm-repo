@@ -3,12 +3,26 @@ entries:
   game2048:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-22T22:22:24.7583454+01:00"
+    created: "2022-11-22T22:36:27.3619609+01:00"
     description: A Helm chart for Kubernetes
-    digest: c23cf58385f99d2058cdc4047a22679c59b07d5899570c1aa141a0bf5a55fb5b
+    digest: a65070131c3baeaf89d5bcd29ec2ed5b916601836a9ec84c3738cb599de2c284
     name: game2048
     type: application
     urls:
     - charts/game2048-1.0.0.tgz
     version: 1.0.0
-generated: "2022-11-22T22:22:24.7573426+01:00"
+  laptop-info:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-11-22T22:36:27.362962+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 71c7a88fad22ed7cf2dfdee7cceeee4161e8a4da9e7886895a9ee760147340dc
+    home: https://martijnvdp.github.io/helm-repo
+    name: laptop-info
+    sources:
+    - https://martijnvdp.github.io/helm-repo
+    type: application
+    urls:
+    - charts/laptop-info-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-11-22T22:36:27.3609242+01:00"
